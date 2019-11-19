@@ -7,8 +7,8 @@ Analogue to digital
 
 Backing store - Long term memory (Hard drive, CD)
 Main Memory - short term memory (RAM)
-| Type | storage |
-|---|---|
+| Type | storage | 
+|---|----| 
 | Magnetic | floppy disk, zip disk | 
 | optical | CD, DVD, DVD, Blu-ray | 
 | electrical | USB, pen, drive, Hard drive, Solid state drive | 
