@@ -24,6 +24,6 @@ HCI impact on economy
 
 HCI impacts on culture
 * translators
-* psychologicla & socialogical impacts
+* psychological & sociological impacts
 * Loss of trades
 * impact on developing nations
