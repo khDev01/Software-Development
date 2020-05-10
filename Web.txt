@@ -1,5 +1,0 @@
-Build portfolio 
-Wordpress
-Remove extention from url
-Raspberry pi
-Linux
