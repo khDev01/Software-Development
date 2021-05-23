@@ -1,0 +1,19 @@
+MVC
+Model - data application uses
+View - view
+Controller - file that controls/logic
+
+Framework - represents a collection of libraries and modules. This adds a layer of abstraction. Do not bother with low wevel details
+
+React - JS library for building ui
+* component - building block
+* state - object that stores property values that belong to a component handled within component
+* Props - arguments passed into a component, handled outsite componennt
+	* e.g. counter app, prop to initialise starting count, state updates counter.
+
+JSX
+* always return single element
+div/section... or fragment
+use camelCase for html attribute
+className replaces class
+close every element

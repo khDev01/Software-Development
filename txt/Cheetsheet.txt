@@ -1,0 +1,11 @@
+where python  - path
+pip list - packages 
+pip freeze - packages layout for requirements.txt
+python -m venv my_env = created env in current folder
+python -m venv my_env --sytem-site-packages - create env with global packages installed
+my_env\Scripts\activate = activate envirionment
+rmdir myproject /s - delete whole project and sub dirs
+pip install -r requirements.txt - install all packages in the file
+python -m django --version
+django-admin startproject mysite
+python manage.py runserver - run in mysite or name of outer site direcory created with startproject
