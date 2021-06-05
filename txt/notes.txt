@@ -11,6 +11,9 @@ React - JS library for building ui
 * Props - arguments passed into a component, handled outsite componennt
 	* e.g. counter app, prop to initialise starting count, state updates counter.
 
+componentDidMount == useEffect - runs after first render
+componentWillUnmount == useEffect that returns a function - runs after component is removed from DOM
+
 JSX
 * always return single element
 div/section... or fragment
