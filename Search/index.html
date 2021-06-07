@@ -1,9 +1,117 @@
-<form target="_blank" action="https://www.google.com/search">
+
+
+
+
+
+<div class="flex">
+  <img src="google-logo.png" width="25" alt="google logo" />
+
+  <form target="_blank" action="https://www.google.com/search">
+
+    <input type="text" name="q">
+    <input type="submit" value="search">
+  </form>
+</div>
+<div class="flex">
+  <img src="google-logo.png" width="25" alt="google logo" />
+
+  <form target="_blank" action="https://www.google.com/search">
+<input type="hidden" name="tbm" value="isch">
+    <input type="text" name="q">
+    <input type="submit" value="search">
+  </form>
+</div>
+<!-- <div class="flex">
+  <!-- <img src="google-logo.png" width="25" alt="google logo" /> ->
+  <form target="_blank" action="https://duckduckgo.com/">
+    <input type="text" name="q">
+<input type="hidden" name="t" value="hc">
+<input type="hidden" name="va" value="u">
+    <input type="submit" value="search">
+  </form>
+</div> -->
+<div class="flex-grid">
+<a href="#">link1</a>
+<a href="#">link2</a>
+<a href="#">link3</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#"></a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+</div>
+
+<!-- <form target="_blank" action="https://www.duckduckgo.com/search">
+  Duckduckgo
   <input type="text" name="q">
   <input type="submit" value="search">
-</form>
+</form> -->
 <style media="screen">
+.grid {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: repeat(5, 100px);
+}
+
+.grid > a {
+  /* cursor: pointer; */
+  font-size: 2rem;
+  /* border: 1px solid white; */
+  outline: none;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.flex-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+flex-wrap:wrap;
+/* flex-direction: row-reverse; */
+
+}
+
+.flex-grid > a {
+  /* cursor: pointer; */
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+
   body {
     background-color: lightblue;
+  }
+
+  img {
+    /* padding-top: 8px; */
+    max-height: 23
+  }
+
+  .flex {
+    display: flex;
+
   }
 </style>

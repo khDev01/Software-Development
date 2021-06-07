@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!-- <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi unde harum, tempora voluptate officia nostrum nisi voluptatibus explicabo dolores ratione cum temporibus et excepturi ut aperiam voluptatum voluptatem veritatis.</h4> -->
+    <p data-tooltip="mytooltip">My paragraph</p>
+  </body>
+  <style media="screen">
+    p::before {
+      content: open-quote;
+      /* background-color: red; */
+      width 200px;
+      height: 60px;
+    }
+    /* p::after {
+      content: url(./google-logo.png);
+      background-color: red;
+      width 20px;
+      height: 10px;
+    } */
+
+    p[data-tooltip] {
+      position: relative;
+    }
+    p[data-tooltip]::after {
+      position: relative;
+      content: attr(data-tooltip);
+      display: block;
+      position: absolute;
+      background-color: grey;
+      padding: 1em;
+      color: white;
+      border-radius: 5px;
+      /* bottom: 100%; */
+      left: 0;
+      white-space: nowrap;
+      transform: scale(0);
+      transition: transform ease-out 150ms;
+    }
+    p[data-tooltip]:hover::after {
+transform: scale(1);
+    }
+
+  </style>
+</html>

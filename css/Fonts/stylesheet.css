@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "yellowtailregular";
+  src: url("Yellowtail-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-family: "yellowtailregular";
+}
