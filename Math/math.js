@@ -14,9 +14,9 @@ console.log(getRandomInt(0, positiveMax))
 //     return true
 //   } else {
 //     return false
-//   }
+//   }ggg
 // }
-
+//
 // console.log(myarray(true))
 randomArray = (length, max) =>
   [...Array(length)].map(
